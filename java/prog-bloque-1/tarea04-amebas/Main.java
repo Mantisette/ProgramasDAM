@@ -1,8 +1,10 @@
-package com.csm.amebas;
+package progbloque1.tarea04amebas;
 
-public class Main {
+public class Main
+{
 
-  public static void main(String[] args) {
+  public static void main(String[] args)
+  {
     Ameba a1 = new Ameba();
     a1.come(2);
     System.out.println(a1);
