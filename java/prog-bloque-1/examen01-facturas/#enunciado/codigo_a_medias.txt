@@ -1,0 +1,64 @@
+    public static void main(String[] args) {
+        boolean terminar=false;
+        String opcion;
+        Scanner sc = new Scanner(System.in);
+        int id;
+        String cliente;
+        double importe;
+        Factura factura;
+        Factura[] facturas= ???;//@TODO completa la sentencia adecuadamente
+        StringBuilder sb=new StringBuilder("");
+        int pendientes;
+        while (true) {
+            System.out.println("1)CreaFactura 2)ModificaImporte 3)Abona 4)Lista 5)Resumen 6)Morosos");
+            opcion = sc.nextLine();
+            switch (opcion) {
+                case "1":
+                    System.out.println("Introduce cliente e importe (en dos líneas)");
+					cliente=sc.nextLine();
+                    importe=sc.nextDouble();
+                    sc.nextLine();
+                    //
+					//@TODO crea la factura
+					//
+                    System.out.println("...creando factura... OK: "+factura);
+                    break;
+                case "2":
+                    System.out.println("Introduce Id de la factura y nuevo importe (en dos líneas)");
+                    //
+					//@TODO modifica el importe de la factura que te digan (si no existe has de dar un mensaje de error)
+					//
+                    break;
+                case "3":
+                    System.out.println("Introduce Id de la factura");
+                    id=sc.nextInt();
+                    sc.nextLine();
+                    //
+					//@TODO abona la factura que diga el ususario (si no existe o ya está abonada has de dar un error)
+					//
+                    break;
+                case "4":
+                    //
+					//@TODO muestra el listado de todas las facturas existentes
+					//
+                    break;
+                case "5":
+                    //
+					//@TODO muestra el resumen de abonadas y pendientes
+					//
+                    break;
+                case "6":
+                    //
+					//@TODO muestra los clientes que tienen facturas pendientes de pago
+					//
+                    break;
+                default://Si elige cualquier otra opción se termina el programa
+                    terminar=true;
+                    System.out.println("Saliendo...");
+                    break;
+            }
+            if(terminar) break;
+        }
+    }
+
+

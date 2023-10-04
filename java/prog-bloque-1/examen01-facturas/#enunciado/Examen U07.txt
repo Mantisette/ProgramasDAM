@@ -1,0 +1,30 @@
+Queremos gestionar las facturas de nuestra empresa.
+La información que se manejará de cada factura es (UTILIZA ESOS NOMBRES):
+- Id. Es un nº entero secuencial que se irá asignado de manera AUTOMÁTICA a cada nueva factura. Una vez asignado, no se debe modificar jamás. Su valor máximo es de 1000, fijo.
+- Cliente. Un texto a elegir por el usuario. Una vez asignado, no se debe modificar jamás.
+- Importe neto. Una cierta cantidad (acepta decimales). Sí se puede modificar a lo largo del tiempo, pero SÓLO SI LA FACTURA NO HA SIDO PAGADA.
+- Abonada. Indica si la factura ha sido pagada. Cuando se crea una facura, todavía no ha sido abonada. Una vez abonada no hay vuelta atrás (no se puede "despagar").
+
+Se proporciona un código (a medio hacer) que ofrece al usuario diferentes acciones a realizar con las facturas.
+
+Tareas a completar por el alumno:
+1. Crear un proyecto en NetBeans para poder gestionar las facturas. Nombre del proyecto: las iniciales del alumno.
+2. Modificar el código proporcionado según las instrucciones que aparecen en él en forma de comentarios (//@TODO)
+3. En cuanto a las facturas, hay que tener en cuenta, además de lo anteriormente expuesto, que
+	- Para crear una factura se deben proporcionar cliente e importe neto.
+	- En todo momento (sin necesidad de revisar todas las facturas) debemos saber la cantidad de facturas abonadas y pendientes de pago que tenemos, así como el importe total abonado y pendiente que tenemos.
+
+PUNTUACIÓN: 1pto por el correcto funcionamiento de cada item del menú (6ptos) + 4ptos la correcta codificación de la lógica de la factura.
+IMPORTANTE: Para obtener puntuación plena, se deben respetar los estándares y buenas prácticas de nomenclatura, visibilidad, ahorro de recursos, reusabilidad y estilo.
+
+Deberás subir un archivo comprimido con tu proyecto netbeans (el directorio completo).
+
+Se presenta el listado resultante de una ejecución para que sirva de modelo a la hora de presentar las facturas, los errores. Ha de hacerse como en ese listado.
+
+Resultados de aprendizaje involucrados:
+2-Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación orientada a objetos.
+4-Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos.
+6-Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos.
+
+
+
