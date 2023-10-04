@@ -86,34 +86,12 @@ public class Televisor
 
   public void subirCanal()
   {
-    if (!this.encendida)
-    {
-      System.out.println("El televisor esta apagado.");
-      return;
-    }
-    if (this.canal == MAX_CANAL)
-      System.out.println("No se puede subir el canal.");
-    else
-    {
-      this.canal++;
-      System.out.println("Canal subido.");
-    }
+    seleccionarNuevoCanal(canal++);
   }
 
   public void bajarCanal()
   {
-    if (!this.encendida)
-    {
-      System.out.println("El televisor esta apagado.");
-      return;
-    }
-    if (this.canal == MIN_CANAL)
-      System.out.println("No se puede bajar el canal.");
-    else
-    {
-      this.canal--;
-      System.out.println("Canal bajado.");
-    }
+    seleccionarNuevoCanal(canal--);
   }
 
   public void cambiarVolumen(int volumen)
