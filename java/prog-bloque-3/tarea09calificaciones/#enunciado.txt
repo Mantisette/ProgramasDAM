@@ -1,0 +1,7 @@
+Escribe un programa que te permita almacenar las calificaciones de cada alumno.
+Un alumno se identifica por un id (irrepetible). También tiene un nombre, que sí se puede repetir.
+Cada calificación consta de un par asignatura/nota
+Cada alumno puede tener varias calificaciones, pero no puede tener la misma asignatura más de una vez
+El programa debe poder listar las calificaciones en la forma:
+Nombre(id) --> asig:nota, asig:nota, ... asig:nota
+Con una línea para cada alumno, odenándolos alfabéticamente
