@@ -1,0 +1,12 @@
+Suponemos que en nuestra empresa tenemos equipos de sobremesa (s01, s02, s03...)  portátiles (p01, p02, p03...) y queremos registrar las incidencias que se producen en ellos y la fecha.
+Cuando un empleado detecta que un equipo no fuciona bien, informa de una incidencia dando la fecha y el equipo.
+Todas las incidencias de una fecha se deben almacenar juntas. Si varios empleados notifican problemas con un equipo en la misma fecha, se considera la misma incidencia.
+El programa debe permitir listar, por fechas, los equipos que tienen problemas
+Algo así:
+1) Nueva incidencia
+Te pide fecha y equipo
+2) Listado de incidencias. Muestra algo como esto
+01/01/2020 p02, p05, s01, s04
+02/01/2020 p02, s01, s11
+...
+ordenado por fecha y equipo
