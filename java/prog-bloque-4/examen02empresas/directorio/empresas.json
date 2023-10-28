@@ -1,0 +1,34 @@
+[
+  {
+    "cif": "10000000-L",
+    "razonSocial": "Papeleria Jose Luis S.L.",
+    "plantilla": [
+      {
+        "nif": "111222S",
+        "nombre": "Jose Luis Sanchez",
+        "salario": 1000.0
+      },
+      {
+        "nif": "234000-F",
+        "nombre": "Maria Perez",
+        "salario": 1001.23
+      }
+    ]
+  },
+  {
+    "cif": "0908082.h",
+    "razonSocial": "Fruteria \"La Fressca\"",
+    "plantilla": [
+      {
+        "nif": "12312312-l",
+        "nombre": "Francisca Corrales?",
+        "salario": 2333.0
+      }
+    ]
+  },
+  {
+    "cif": "9999999-P",
+    "razonSocial": "Nueva Empresa S.A.",
+    "plantilla": []
+  }
+]
