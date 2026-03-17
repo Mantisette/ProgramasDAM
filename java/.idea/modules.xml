@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProgramasDAM.iml" filepath="$PROJECT_DIR$/ProgramasDAM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prog-bloque-1/prog-bloque-1.iml" filepath="$PROJECT_DIR$/prog-bloque-1/prog-bloque-1.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/examen01-facturas" isTestSource="false" packagePrefix="progbloque1.examen1facturas" />
+      <sourceFolder url="file://$MODULE_DIR$/examen02-robots" isTestSource="false" packagePrefix="progbloque1.examen2robots" />
+      <sourceFolder url="file://$MODULE_DIR$/examen03-proyectos" isTestSource="false" packagePrefix="progbloque1.examen3proyectos" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea01-televisor" isTestSource="false" packagePrefix="progbloque1.tarea01televisor" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea02-fracciones" isTestSource="false" packagePrefix="progbloque1.tarea02fracciones" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea03-terminal" isTestSource="false" packagePrefix="progbloque1.tarea03terminal" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea04-amebas" isTestSource="false" packagePrefix="progbloque1.tarea04amebas" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea05-tiempo" isTestSource="false" packagePrefix="progbloque1.tarea07tiempo" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea08-puntoylinea" isTestSource="false" packagePrefix="progbloque1.tarea08puntoylinea" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea09-entradas" isTestSource="false" packagePrefix="progbloque1.tarea09entradas" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea10-pizzas" isTestSource="false" packagePrefix="progbloque1.tarea10pizzas" />
+      <sourceFolder url="file://$MODULE_DIR$/tarea11-cuentacorriente" isTestSource="false" packagePrefix="progbloque1.tarea11cuentacorriente" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

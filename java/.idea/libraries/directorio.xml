@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="directorio">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/prog-bloque-4/examen02empresas/directorio/gson-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/prog-bloque-4/examen02empresas/directorio/Empresa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
